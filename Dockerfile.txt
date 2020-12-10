@@ -10,6 +10,6 @@ RUN npm install
 
 # Bundle app source
 COPY . /app
-CMD node server.js
+CMD node server2.js
 
 EXPOSE 8081
